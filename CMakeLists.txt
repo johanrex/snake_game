@@ -23,7 +23,6 @@ target_link_libraries(SnakeGame SDL3::SDL3)
 
 # Enable warnings as errors for the target
 if (MSVC)
-    # Ensure /W4 is the first flag to prevent CMake from adding /W3 first
     target_compile_options(SnakeGame PRIVATE /WX /wd4100)
 else()
     target_compile_options(SnakeGame PRIVATE -Werror -Wall -Wno-unused-parameter)
