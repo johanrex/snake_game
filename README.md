@@ -1,7 +1,7 @@
-Snake game in C using SDL3. 
+Simple snake game written in C using SDL3. Eat fruits and grow. 
 
-Eat fruits and grow. 
+Separate "physics" and graphics update intervals. 
 
 Use arrow keys to move.
 
-Separate "physics" and graphics update intervals. 
+Only tested on Windows using the MSVC compiler.
